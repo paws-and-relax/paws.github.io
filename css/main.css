@@ -1,91 +1,43 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Nov 5, 2019, 6:35:42 PM
-    Author     : Bui
-*/
-            
-/* Style the body: 
- * back ground color, overall font of the website
- */
-           
-body {background-color: rgba(211, 211, 211, 0.15);
-      font-family: Papyrus;
-      font-weight: bolder;
-      font-size: 100%;
-      margin: 0;
-      opacity: 1;
-      transition: 1s opacity;
+body {
+    margin: 60px auto;
+    width: 70%;
 }
-
-body .fade-out {
-    opacity: 0;
-    transition: none;
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
 }
-
-/* Style header */
-.header {
-    color: black;
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
 }
-.header a{
-    color: black;
+a {
     text-decoration: none;
+    color: #999;
 }
-.header h1 {
-    text-align: center;
+a:hover {
+    text-decoration: underline;
 }
-
-/* Style navigation bar */
-#navbar {
-    overflow: hidden;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1;
-    text-align: center;
-    height: 50px;
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-#navbar a {
-    display: inline-block;
-    height: 50px;
-    padding-top: 12.5px;
-    padding-left: 23px;
-    padding-right: 23px;
-    text-decoration: none;
-    color: white;
-
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
 }
-#navbar a:hover {
-    background-color: rgba(500, 400, 300, 0.6);
-}
-
-.center {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-.center img {
-    z-index: 0;
-    width: 90%; 
-    height: 445px;
-    padding-top: 25px;
-
-}
-.textPosOnImg {
-    position: absolute;
-    top: 83.5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 footer {
-    color: black;
-    text-align: center;
-    padding: 10px;
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
 }
 
-footer p {
-    font-size: 18px;
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
 }
