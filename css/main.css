@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 5, 2019, 6:35:42 PM
+    Author     : Bui
+*/
+            
+/* Style the body: 
+ * back ground color, overall font of the website
+ */
+           
+body {background-color: rgba(211, 211, 211, 0.15);
+      font-family: Papyrus;
+      font-weight: bolder;
+      font-size: 100%;
+      margin: 0;
+      opacity: 1;
+      transition: 1s opacity;
+}
+
+body .fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+/* Style header */
+.header {
+    color: black;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+}
+.header h1 {
+    text-align: center;
+}
+
+/* Style navigation bar */
+#navbar {
+    overflow: hidden;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    text-align: center;
+    height: 50px;
+}
+#navbar a {
+    display: inline-block;
+    height: 50px;
+    padding-top: 12.5px;
+    padding-left: 23px;
+    padding-right: 23px;
+    text-decoration: none;
+    color: white;
+
+}
+#navbar a:hover {
+    background-color: rgba(500, 400, 300, 0.6);
+}
+
+.center {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.center img {
+    z-index: 0;
+    width: 90%; 
+    height: 445px;
+    padding-top: 25px;
+
+}
+.textPosOnImg {
+    position: absolute;
+    top: 83.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 18px;
+}
