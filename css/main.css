@@ -1,37 +1,9 @@
-body {background-color: rgba(211, 211, 211, 0.15);
-      font-family: Papyrus;
+body {
+      font-family: 'Papyrus';
       font-weight: bolder;
       font-size: 100%;
-      margin: 0;
+      margin: 60px auto;
       opacity: 1;
       transition: 1s opacity;
-}
-
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    color: black;
-    text-align: center;
-    padding: 10px;
-}
-
-footer p {
-    font-size: 18px;
 }
 
